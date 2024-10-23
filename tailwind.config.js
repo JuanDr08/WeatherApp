@@ -9,7 +9,8 @@ export default {
 			colors: {
 				"blanco": "#FFFFFF",
 				"palido": "#F6EDFF",
-				"lilaV": "#E0B6FF",
+				"lilaV": "#E2D3FA",
+				"lilaHV": "#E0B6FF",
 				"lilaP": "#D0BCFF",
 				"negroP": "#1E1B1B",
 				"gris": "#494649",

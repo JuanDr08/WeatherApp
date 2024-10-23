@@ -1,10 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import {Suspense} from "react";
+import {lazy, Suspense} from "react";
+
+const Home = lazy(() => import('./pages/Home'))
 
 const router: ReturnType<typeof createBrowserRouter> = createBrowserRouter([
     {
         path: "/",
-        element: <Suspense fallback={<p>Cargando...</p>}><h1>Weather App Hello World!</h1></Suspense>,
+        element: <Suspense fallback={<p>Cargando...</p>}> <Home /> </Suspense>,
 
     }
 ])
