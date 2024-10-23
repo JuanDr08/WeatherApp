@@ -5,6 +5,7 @@ export interface Welcome {
     readonly location: Location;
     readonly current:  Current;
     readonly forecast: Forecast;
+    currentData?: Forecastday
 }
 
 export interface Current {
